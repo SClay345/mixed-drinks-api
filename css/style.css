@@ -1,0 +1,52 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../Bar.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px #161616;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.image{
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+}
+.output {
+  display: flex;
+  flex-flow: wrap;
+  justify-content:center;
+  align-items: center;
+  }
+  .name {
+  text-align: center;
+   flex-basis: 100%;
+   justify-content: center;
+  }
+
+.instructions{
+  flex-basis: 100%;
+}
+
+.one, .two {
+  margin: 0 5%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
